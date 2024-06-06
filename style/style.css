@@ -6,3 +6,15 @@
     font-weight: 400;
     font-style: normal;
 }
+@media screen and (max-width:576px) {
+    .shopping{
+        flex-direction: column-reverse;
+    }
+    .images{
+        width: 400px;
+    }
+    .card{
+        max-width: 80%;
+     margin-inline: auto;
+    }
+}
